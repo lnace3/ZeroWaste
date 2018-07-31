@@ -1,0 +1,105 @@
+item {
+  id: 1
+  name: 'can'
+}
+
+item {
+  id: 2
+  name: 'straws'
+}
+
+item {
+  id: 3
+  name: 'compost_cup'
+}
+
+item {
+  id: 4
+  name: 'milk_carton'
+}
+
+item {
+  id: 5
+  name: 'bowl'
+}
+
+item {
+  id: 6
+  name: 'ms togo container'
+}
+
+item {
+  id: 7
+  name: 'chop sticks'
+}
+
+item {
+  id: 8
+  name: 'paper bowls'
+}
+
+item {
+  id: 9
+  name: 'napkins'
+}
+
+item {
+  id: 10
+  name: 'milk cover'
+}
+
+item {
+  id: 11
+  name: 'ms coffee cup'
+}
+
+item {
+  id: 12
+  name: 'ms salad bowl'
+}
+
+item {
+  id: 13
+  name: 'plate'
+}
+
+item {
+  id: 14
+  name: 'tea bag'
+}
+
+item {
+  id: 15
+  name: 'utensils'
+}
+
+item {
+  id: 16
+  name: 'wrappers'
+}
+
+item {
+  id: 17
+  name: 'ms coffee cup top'
+}
+
+item {
+  id: 18
+  name: 'plastic container'
+}
+
+item {
+  id: 19
+  name: 'ms chip bag'
+}
+
+item {
+  id: 20
+  name: 'round dairy tubs'
+}
+
+item {
+  id: 21
+  name: 'ms coffee stick'
+}
+
