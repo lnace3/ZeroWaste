@@ -1,4 +1,7 @@
 # ZeroWaste
+
+![](https://github.com/naivelogic/ZeroWaste/blob/master/image_prep/support/ZeroWasteLogo1%20(2).png)
+
 Identify and classify images for appropriate disposal
 
 __Problem Statement:__ Did you know last year on the Redmon campus 11 million Microsoft compostable coffee cuts were used? How many of those do you think were appropriately composted? This brings our case in point: Recycling is necessary for a sustainable society, however with the mass production of items in various shapes, sizes, textures and materials, consumers (including I myself) often can get confused about how to determine the correct way of disposing of a large variety of materials. Therefore our problem is ubiquitous in the world: how can we solve the problem of humans having to segregate trash into the trash, compost and recycling without messing it up? Easy, we train a machine to help train humans. This is a human problem, which will take humans to fix, but using ML we can help humanity correct common misconceptions. 
