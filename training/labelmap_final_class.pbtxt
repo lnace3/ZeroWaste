@@ -1,0 +1,105 @@
+item {
+  id: 1
+  name: 'recycle'
+}
+
+item {
+  id: 2
+  name: 'compost'
+}
+
+item {
+  id: 3
+  name: 'compost'
+}
+
+item {
+  id: 4
+  name: 'compost'
+}
+
+item {
+  id: 5
+  name: 'compost'
+}
+
+item {
+  id: 6
+  name: 'compost'
+}
+
+item {
+  id: 7
+  name: 'compost'
+}
+
+item {
+  id: 8
+  name: 'compost'
+}
+
+item {
+  id: 9
+  name: 'compost'
+}
+
+item {
+  id: 10
+  name: 'compost'
+}
+
+item {
+  id: 11
+  name: 'compost'
+}
+
+item {
+  id: 12
+  name: 'compost'
+}
+
+item {
+  id: 13
+  name: 'compost'
+}
+
+item {
+  id: 14
+  name: 'compost'
+}
+
+item {
+  id: 15
+  name: 'compost'
+}
+
+item {
+  id: 16
+  name: 'trash'
+}
+
+item {
+  id: 17
+  name: 'compost'
+}
+
+item {
+  id: 18
+  name: 'trash'
+}
+
+item {
+  id: 19
+  name: 'compost'
+}
+
+item {
+  id: 20
+  name: 'recycle'
+}
+
+item {
+  id: 21
+  name: 'compost'
+}
+
