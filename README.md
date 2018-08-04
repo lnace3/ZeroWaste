@@ -1,6 +1,7 @@
 # ZeroWaste
 
 ![](https://github.com/naivelogic/ZeroWaste/blob/master/image_prep/support/ZeroWasteLogo1%20(2).png)
+
 _Saving the world, one item at a time_
 
 __Zero Waste Vision:__ Zero Waste is a tool to enable the Microsoft community to reduce waste. Using an IoT device backed by an AI system, Zero Waste identifies and classifies objects as compostable, recyclable or landfill in real time as people throw objects into a waste bin. The real value of Zero Waste is to provide real time indicators via LEDs located on the waste bins to enable reinforce learning to those throwing the objects away to reduce waste. The reinforcement in waste behavior work as follows: when an object such as an aluminum can is thrown in the landfill bin, a red LED will be indicated on the landfill bin and a green LED on the recycling bin. In this way we can have a positive feedback mechanism for correcting the waste disposal behavior within the Microsoft community. This will not only have positive environmental effects but also beneficial economic effects.
@@ -12,9 +13,20 @@ __Problem Statement:__ Did you know last year on the Redmon campus 11 million Mi
 __Objective:__ Build a system to help reinforce the Microsoft community on the best ways to reduce waste. In this project we will seek to categorize different pieces of waste into three categories: (1) Recyclable (2) Compost (3) Landfill using machine learning to identify and classify images for appropriate disposal. This will not only have a positive effect on the environment but also economical effects.
 
 ### Project Overview: Raspberry Pi Object Recognition and Classification for Waste
+__Specifications:__
+* [Azure Deep Learning Virtual Machine (w/ GPU)](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview)
+* [Convolutional Neural Network (CNN)](http://cs231n.github.io/convolutional-networks/) to classify the images in recyclable, landfill, compost.
+* [Tensorflow APIs](https://github.com/tensorflow) (sorry CNTK) to build the the CNN data graph and train the Zero Waste Model. I used a pre-trained [Tensorflow model](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) rather than creating one from scratch and build my model ontop of it. 
+* Applied the model to a [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) to act as an IoT device to implement Zero Waste in action. 
+
 We’ll harness the power of some hardware, as well as a couple of APIs:
 
 * Raspberry Pi B+ as our computer board of choice
 * Raspberry Pi Camera Module
 * OpenCV to enable accurate facial detection of photos
 * Tensorflow
+
+
+### Motivation
+* I wanted to build a neural network :)
+* [Classification of Trash for Recyclability](http://cs229.stanford.edu/proj2016/report/ThungYang-ClassificationOfTrashForRecyclabilityStatus-report.pdf)
