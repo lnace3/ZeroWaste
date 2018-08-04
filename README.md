@@ -1,8 +1,11 @@
 # ZeroWaste
 
 ![](https://github.com/naivelogic/ZeroWaste/blob/master/image_prep/support/ZeroWasteLogo1%20(2).png)
+_Saving the world, one item at a time_
 
-Identify and classify images for appropriate disposal
+__Zero Waste Vision:__ Zero Waste is a tool to enable the Microsoft community to reduce waste. Using an IoT device backed by an AI system, Zero Waste identifies and classifies objects as compostable, recyclable or landfill in real time as people throw objects into a waste bin. The real value of Zero Waste is to provide real time indicators via LEDs located on the waste bins to enable reinforce learning to those throwing the objects away to reduce waste. The reinforcement in waste behavior work as follows: when an object such as an aluminum can is thrown in the landfill bin, a red LED will be indicated on the landfill bin and a green LED on the recycling bin. In this way we can have a positive feedback mechanism for correcting the waste disposal behavior within the Microsoft community. This will not only have positive environmental effects but also beneficial economic effects.
+
+__What it does (Current State):__ Zero Waste provide real time image recognition to assist sorting waste into their corresponding categories. The LED reinforcement learning is still under development. 
 
 __Problem Statement:__ Did you know last year on the Redmon campus 11 million Microsoft compostable coffee cuts were used? How many of those do you think were appropriately composted? This brings our case in point: Recycling is necessary for a sustainable society, however with the mass production of items in various shapes, sizes, textures and materials, consumers (including I myself) often can get confused about how to determine the correct way of disposing of a large variety of materials. Therefore our problem is ubiquitous in the world: how can we solve the problem of humans having to segregate trash into the trash, compost and recycling without messing it up? Easy, we train a machine to help train humans. This is a human problem, which will take humans to fix, but using ML we can help humanity correct common misconceptions. 
 
