@@ -34,3 +34,15 @@ We’ll harness the power of some hardware, as well as a couple of APIs:
 
 
 ![](https://github.com/naivelogic/ZeroWaste/blob/master/Object%20detector_screenshot_23.07.2018v5%20(1).png)
+
+
+            
+###TeX(LaTeX)
+   
+$$E=mc^2$$
+
+Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。
+
+$$\(\sqrt{3x-1}+(1+x)^2\)$$
+                    
+$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
