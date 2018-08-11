@@ -30,3 +30,7 @@ We’ll harness the power of some hardware, as well as a couple of APIs:
 ### Motivation
 * I wanted to build a neural network :)
 * [Classification of Trash for Recyclability](http://cs229.stanford.edu/proj2016/report/ThungYang-ClassificationOfTrashForRecyclabilityStatus-report.pdf)
+
+
+
+![](https://github.com/naivelogic/ZeroWaste/blob/master/Object%20detector_screenshot_23.07.2018v5%20(1).png)
