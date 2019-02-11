@@ -27,6 +27,19 @@ We’ll harness the power of some hardware, as well as a couple of APIs:
 * Tensorflow
 
 
+#### Model 
+The models used and adapted for Zero Waste was provided by TensorFlow object detection models that include pre-trained classifiers with specific neural net architecture. GitHub repository for [Coco trained models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
+
+- faster_rcnn_inception_v2_coco_2018_01_28
+- ssd_mobilenet_v2_coco_2018_03_29
+
+#### Raspberry Pi 3
+https://www.amazon.com/gp/product/B01C6Q2GSY/ref=oh_aui_search_asin_title?ie=UTF8&psc=1
+- Raspberry Pi 3 (RPi3) Model B Quad-Core 1.2 GHz 1 GB RAM
+- On-board WiFi and Bluetooth Connectivity
+- 2 x Heat Sinks
+- GPIO Quick Reference Card
+
 ### Motivation
 * I wanted to build a neural network :)
 * [Classification of Trash for Recyclability](http://cs229.stanford.edu/proj2016/report/ThungYang-ClassificationOfTrashForRecyclabilityStatus-report.pdf)
