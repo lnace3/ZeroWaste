@@ -48,3 +48,19 @@ while True:
 # clean up
 cap.release()
 cv2.destroyAllWindows()
+
+
+
+################################################
+def blob_storage_config():
+    """
+    TODO: need to dynamically reference creds
+    Getting Started: https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-python
+    https://github.com/Azure-Samples/storage-blob-python-getting-started/blob/master/blob_basic_samples.py
+
+    """
+
+    # define blob service details 
+    pass
+
+
