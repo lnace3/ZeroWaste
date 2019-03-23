@@ -18,6 +18,7 @@ __Specifications:__
 * [Convolutional Neural Network (CNN)](http://cs231n.github.io/convolutional-networks/) to classify the images in recyclable, landfill, compost.
 * [Tensorflow APIs](https://github.com/tensorflow) (sorry CNTK) to build the the CNN data graph and train the Zero Waste Model. I used a pre-trained [Tensorflow model](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) rather than creating one from scratch and build my model ontop of it. 
 * Applied the model to a [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) to act as an IoT device to implement Zero Waste in action. 
+* Utilized [tzutalin's LabelImg](https://github.com/tzutalin/labelImg) for image annotations. 
 
 We’ll harness the power of some hardware, as well as a couple of APIs:
 
