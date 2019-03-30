@@ -1,4 +1,7 @@
+import os
 import xml.etree.ElementTree as ET
+
+print 
 
 tree = ET.parse("./images/cans/can1.xml")
 root = tree.getroot()
