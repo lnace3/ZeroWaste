@@ -1,12 +1,11 @@
 import os
 import xml.etree.ElementTree as ET
 
-print 
-
-tree = ET.parse("./images/cans/can1.xml")
+tree = ET.parse("~/ZeroWaste IoT/images/lunch/lunch07/L07_1/L07_01/lunch07_1.xml")
 root = tree.getroot()
 
 print(ET.tostring(root, encoding='utf8').decode('utf8'))
+
 
 
 """
