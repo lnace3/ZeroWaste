@@ -1,3 +1,39 @@
+#%%
+import os
+import glob
+import shutil
+
+def remove_ext(list_of_pathnames):
+    """
+    removes the extension from each file name so we can identify and remove the jpgs that do not have a corresponding xml file
+    """
+    
+    return [os.path.splitext(filename)[0] for filename in list_of_pathnames]
+
+path = "/home/redne/ZeroWaste IoT/images/lunch/lunch07/lunch07"
+path_to_remove: "/home/redne/ZeroWaste IoT/images/images_to_remove"
+
+
+jpg_list_ext = glob.glob(path+"/*.jpg")
+xml_list_ext = glob.glob(path+"/*.xml")
+
+jpg_list = remove_ext(jpg_list_ext)
+xml_list = remove_ext(xml_list_ext)
+
+for filename in jpg_list:
+    if filename not in xml_list:
+        print("removing: ", filename)
+        # move image to another path
+        shutil.move((filename + ".jpg"), "/home/redne/ZeroWaste IoT/images/images_to_remove")
+
+
+	
+#####
+"""
+The remaining section in WIP to develop a way to pull all xml to check for spelling, reporting for distribution, ect. 
+"""
+#%%
+
 import os
 import xml.etree.ElementTree as ET
 
