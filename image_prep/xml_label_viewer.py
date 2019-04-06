@@ -10,8 +10,7 @@ def remove_ext(list_of_pathnames):
     
     return [os.path.splitext(filename)[0] for filename in list_of_pathnames]
 
-path = "/home/redne/ZeroWaste IoT/images/lunch/lunch07/lunch07"
-path_to_remove: "/home/redne/ZeroWaste IoT/images/images_to_remove"
+path = "<<PATH WHERE IMAGES AND ANNOTATIONS (xml) ARE STORED>>>"
 
 
 jpg_list_ext = glob.glob(path+"/*.jpg")
