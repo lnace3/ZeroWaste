@@ -23,7 +23,7 @@ for filename in jpg_list:
     if filename not in xml_list:
         print("removing: ", filename)
         # move image to another path
-        shutil.move((filename + ".jpg"), "/home/redne/ZeroWaste IoT/images/images_to_remove")
+        shutil.move((filename + ".jpg"), "<<<DEFINE LOCATION WHERE TO MOVE IMAGE THAT DO NOT CONTAIN ANNOTATIONS (e.g., XML file)>>>")
 
 
 	
