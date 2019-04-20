@@ -1,0 +1,129 @@
+item {
+  id: 1
+  name: 'carton'
+}
+
+item {
+  id: 2
+  name: 'non-recyclable paper'
+}
+
+item {
+  id: 3
+  name: 'wrappers'
+}
+
+item {
+  id: 4
+  name: 'glass container'
+}
+
+item {
+  id: 5
+  name: 'ms clear container'
+}
+
+item {
+  id: 6
+  name: 'ms paper food holder'
+}
+
+item {
+  id: 7
+  name: 'dairy tub'
+}
+
+item {
+  id: 8
+  name: 'other trash'
+}
+
+item {
+  id: 9
+  name: 'ms black utensils'
+}
+
+item {
+  id: 10
+  name: 'ms coffee cup'
+}
+
+item {
+  id: 11
+  name: 'can'
+}
+
+item {
+  id: 12
+  name: 'all other non-recyclable plastics'
+}
+
+item {
+  id: 13
+  name: 'plastic bottle'
+}
+
+item {
+  id: 14
+  name: 'tea bag'
+}
+
+item {
+  id: 15
+  name: 'straws'
+}
+
+item {
+  id: 16
+  name: 'reusable drinking container'
+}
+
+item {
+  id: 17
+  name: 'plastic container'
+}
+
+item {
+  id: 18
+  name: 'receipts'
+}
+
+item {
+  id: 19
+  name: 'pizza box'
+}
+
+item {
+  id: 20
+  name: 'soup lid'
+}
+
+item {
+  id: 21
+  name: 'glass bottle'
+}
+
+item {
+  id: 22
+  name: 'ms wooden utensils'
+}
+
+item {
+  id: 23
+  name: 'plastic bag'
+}
+
+item {
+  id: 24
+  name: 'ceremics'
+}
+
+item {
+  id: 25
+  name: 'ms coffee lid'
+}
+
+item {
+  id: 26
+  name: 'ms utensils'
+}
