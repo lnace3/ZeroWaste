@@ -1,3 +1,7 @@
+"""
+Used to split annotations once in the csv file. This is an optional path if you do not want to manually select the test/train images. 
+"""
+
 #%%
 import numpy as np
 import pandas as pd
